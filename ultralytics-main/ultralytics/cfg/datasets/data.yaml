@@ -1,0 +1,11 @@
+train: E:\读研文件\黄花菜检测\data\yellow flower detection\YOLOV8-seg_for_yellow\train\images
+
+nc: 1
+names: ['target']
+
+roboflow:
+  workspace: cod-lklak
+  project: 1205-yeus4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cod-lklak/1205-yeus4/dataset/1

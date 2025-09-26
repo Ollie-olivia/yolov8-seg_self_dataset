@@ -1,0 +1,17 @@
+D:\anaconda\envs\realtime_py39\python.exe "E:/master files/yellow_flower_detection/code/real_time_v6/test/test.py"
+Ultralytics 8.3.48 🚀 Python-3.9.23 torch-2.7.1+cpu CPU (Intel Core(TM) i5-8265U 1.60GHz)
+YOLOv8s-seg summary (fused): 195 layers, 11,781,148 parameters, 0 gradients, 42.4 GFLOPs
+val: Scanning E:\master files\yellow_flower_detection\data\daylily2025\250711_all\val\labels... 90 images, 0 backgrounds, 0 corrupt: 100%|██████████| 90/90 [00:00<00:00, 490.44it/s]
+D:\anaconda\envs\realtime_py39\lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+val: New cache created: E:\master files\yellow_flower_detection\data\daylily2025\250711_all\val\labels.cache
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 6/6 [00:34<00:00,  5.72s/it]
+                   all         90       1617      0.538      0.443      0.456      0.328       0.55      0.453      0.467      0.277
+                     0         75        342      0.359      0.377      0.335      0.274      0.357      0.377      0.333      0.217
+                     1         87        631      0.376      0.372      0.317      0.241      0.377      0.374      0.319       0.19
+                     2         80        582        0.6       0.45      0.513      0.374      0.602      0.454       0.51      0.307
+                     3         39         62      0.816      0.574      0.657      0.423      0.862      0.606      0.703      0.395
+Speed: 2.0ms preprocess, 302.2ms inference, 0.0ms loss, 3.0ms postprocess per image
+Results saved to runs\segment\val2
+
+进程已结束，退出代码为 0
