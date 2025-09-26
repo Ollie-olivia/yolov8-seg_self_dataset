@@ -1,0 +1,19 @@
+#2025.8.20
+#
+
+300 epochs completed in 0.912 hours.
+Optimizer stripped from /media/ubuntu/0f083fd5-b631-4342-9812-7e262eaff979/YCQ/yellow_flower_detection/code/yoloseg_for_daylily/weights/yolov8s-seg/250711_all_train/weights/last.pt, 21.3MB
+Optimizer stripped from /media/ubuntu/0f083fd5-b631-4342-9812-7e262eaff979/YCQ/yellow_flower_detection/code/yoloseg_for_daylily/weights/yolov8s-seg/250711_all_train/weights/best.pt, 21.3MB
+
+Validating /media/ubuntu/0f083fd5-b631-4342-9812-7e262eaff979/YCQ/yellow_flower_detection/code/yoloseg_for_daylily/weights/yolov8s-seg/250711_all_train/weights/best.pt...
+Ultralytics 8.3.0 🚀 Python-3.9.23 torch-2.0.0+cu118 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+YOLOv8s-seg summary (fused): 213 layers, 10,483,228 parameters, 0 gradients, 37.4 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:01<00:00,  1.32it/s]
+                   all         90       1617       0.97      0.933      0.972      0.882       0.96      0.916      0.957       0.67
+                     0         75        342       0.97      0.847      0.943      0.783       0.93      0.795      0.894      0.547
+                     1         87        631       0.96      0.961      0.973      0.888      0.954      0.949      0.963       0.67
+                     2         80        582      0.968      0.939      0.977      0.923       0.97      0.936      0.977      0.711
+                     3         39         62       0.98      0.984      0.995      0.934      0.985      0.984      0.995      0.753
+Speed: 2.7ms preprocess, 2.0ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to /media/ubuntu/0f083fd5-b631-4342-9812-7e262eaff979/YCQ/yellow_flower_detection/code/yoloseg_for_daylily/weights/yolov8s-seg/250711_all_train
+训练完成，模型已保存至: /media/ubuntu/0f083fd5-b631-4342-9812-7e262eaff979/YCQ/yellow_flower_detection/code/yoloseg_for_daylily/weights/yolov8s-seg
