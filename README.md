@@ -1,1 +1,1 @@
-"# yolov8-seg_self_dataset" 
+用自己的数据集训练yolov8-seg和yolo11-seg
